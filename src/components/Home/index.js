@@ -4,9 +4,6 @@ import FarmersCard from "../farmersCard";
 import InfiniteScroll from "react-infinite-scroll-component";
 import {
   Badge,
-  OverlayTrigger,
-  Tooltip,
-  Spinner,
   Button
 } from "react-bootstrap";
 
