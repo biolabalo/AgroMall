@@ -8,15 +8,13 @@ import Profile from "./components/Profile/index";
 
 function App() {
 
-  const [singleProfile, setSingleProfile] = useState({});
-
   return (
     <Router>
       <>
       <NavBar/>
         <Switch>
-          <Route exact path='/' component={Home} setSingleProfile={setSingleProfile} />
-          <Route exact path='/profile' component={Profile} singleProfile={singleProfile} />
+          <Route exact path='/' component={Home}  />
+          <Route exact path='/profile' component={Profile}  />
         </Switch>
       </>
     </Router>
